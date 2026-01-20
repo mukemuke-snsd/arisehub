@@ -104,6 +104,7 @@ export type Database = {
           impact_summary: string | null
           next_steps: string | null
           owner: string | null
+          priority: string | null
           project_name: string | null
           quarter: string | null
           review_date: string | null
@@ -119,6 +120,7 @@ export type Database = {
           impact_summary?: string | null
           next_steps?: string | null
           owner?: string | null
+          priority?: string | null
           project_name?: string | null
           quarter?: string | null
           review_date?: string | null
@@ -134,6 +136,7 @@ export type Database = {
           impact_summary?: string | null
           next_steps?: string | null
           owner?: string | null
+          priority?: string | null
           project_name?: string | null
           quarter?: string | null
           review_date?: string | null
